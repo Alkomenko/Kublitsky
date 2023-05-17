@@ -1,0 +1,278 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	background-color: #fff;
+	min-width: 320px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding: 50px 0;
+}
+
+a {
+	color: #111;
+}
+
+a:hover {
+	color: #555;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  opacity: 0.85;
+  height: 50px;
+  z-index: 12;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.logo {
+  order: 1;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+  color: #117964;
+  transition: color 0.3s ease-in-out;
+}
+
+.top-menu li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #111;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.top-menu li a:hover::after {
+	transform: scale(1);
+}
+
+.modal-body img {
+	max-width: 100px;
+}
+
+
+
+
+.my-carousel {
+	padding: 0;
+}
+
+.my-carousel img {
+	filter: brightness(65%);
+}
+
+.my-carousel .carousel-item {
+	display: flex;
+	max-height: 900px;
+}
+
+.my-carousel .carousel-item img {
+	object-fit: cover;
+}
+
+.carousel-caption {
+	padding-bottom: 300px;
+}
+
+
+
+
+.product-card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+	transition: all .3s;
+}
+
+.product-card:hover {
+	box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.product-thumb a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.product-thumb img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product-details {
+	padding: 20px;
+}
+
+.product-details h4 a {
+	font-weight: 500;
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.product-details p {
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #999;
+	height: 44px;
+	overflow: hidden;
+}
+
+.product-bottom-details {
+	overflow: hidden;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+}
+
+.product-price {
+	font-size: 18px;
+	color: #ee6e73;
+	font-weight: 600;
+}
+
+.product-price small {
+	color: #ccc;
+	font-weight: 400;
+	text-decoration: line-through;
+	margin-right: 5px;
+}
+
+.product-links a {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+
+
+#user-text {
+	font-size: 20px;
+	border-radius: 3px;
+	margin-top: 10px;
+	height: 50px;
+	width: 500px;
+}
+
+#user-text-button {
+	margin-top: 10px;
+	margin-right: 3px;
+	height: 25px;
+	width: 250px;
+}
+
+.contact-content {
+	text-align: center;
+
+	background-color:#acacac;
+	margin-top: 0;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+
+
+.footer {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 50px;
+}
+
+.footer h4 {
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 3px;
+}
+
+.footer a {
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.footer a:hover {
+	color: #696969;
+	text-decoration: underline;
+}
+
+.footer a,
+.footer li {
+	color: #000000;
+}
+
+.footer li a {
+	display: block;
+}
+
+.footer-icons a {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+.food {
+	font-family: "Poppins", sans-serif
+	padding: 5rem 0 10rem 0;
+}
+
+#desert img {
+	height: 60%;
+	width: 50%;
+	margin-top: 3%;
+	box-shadow: 0px 10px 15px 10px #000;
+}
+
+#desert-slide {
+	background: url("img/bg-2-grad.png") center center;
+	background-size: cover;
+}
+
+#desert-slide p {
+	margin-top: 6%;
+}
